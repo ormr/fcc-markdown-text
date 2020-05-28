@@ -1,0 +1,26 @@
+.previewer-wrap {
+  box-shadow: 0 0 10px 1px #3a5f5f;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.previewer-wrap.show {
+  margin-top: 1rem;
+  width: 1200px;
+}
+
+.previewer-wrap.show #preview {
+  width: 1200px;
+  min-height: 600px;
+}
+
+.previewer-wrap.hide {
+  display: none;
+}
+
+#preview {
+  border: 1px solid #000;
+  border-top: 0;
+  background-color: #c0d8d8;
+  min-height: 200px;
+}

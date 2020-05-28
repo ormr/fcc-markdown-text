@@ -1,0 +1,28 @@
+textarea {
+  width: 600px;
+  height: 150px;
+  resize: vertical;
+  background-color: #c0d8d8;
+  border: 1px solid #000;
+  border-top: 0;
+  margin-bottom: -6px;
+}
+
+.editor-wrap {
+  box-shadow: 0 0 10px 1px #3a5f5f;
+  width: 600px;
+  margin: 18px auto;
+}
+
+.editor-wrap.hide {
+  display: none;
+}
+
+.editor-wrap.show {
+  width: 1200px;
+}
+
+.editor-wrap.show textarea {
+  width: 1200px;
+  height: 600px;
+}
